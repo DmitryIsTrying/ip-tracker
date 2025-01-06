@@ -4,12 +4,14 @@ The website was made for the [Frontend Mentor](https://www.frontendmentor.io).
 
 ## Demo
 
-You can see a live demo of the project here: [Live Demo](#)
+You can see a live demo of the project here: [Live Demo](https://dmitryistrying.github.io/ip-tracker/)
 
 ## Screenshots
 
-![Desktop View](#, "Desktop View")
-![Mobile View](#, "Mobile View")
+![Desktop View](https://github.com/user-attachments/assets/26e47c2e-382e-48f6-95ce-3002d0eef9ac)
+
+![Mobile View](https://github.com/user-attachments/assets/2c1036c6-1c2a-4c8b-b317-5e912888a6d6)
+
 
 ## Technology Stack
 
