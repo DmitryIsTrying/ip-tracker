@@ -23,5 +23,12 @@ dist-ssr
 *.sln
 *.sw?
 
+*.xd
+*.fig
+*.sketch
+
 # ignore chromatic visual test
 storybook-static/
+
+#secrets
+.env

@@ -1,4 +1,8 @@
-export { default as Arrow } from "./icons/icon-arrow.svg?react";
-export { default as Location } from "./icons/icon-location.svg?react";
-export { default as MobileBg } from "./images/pattern-bg-mobile.png";
-export { default as DesktopBg } from "./images/pattern-bg-desktop.png";
+// Импортируем иконки и изображения
+import arrow from "./icons/icon-arrow.svg";
+import location from "./icons/icon-location.svg";
+import MobileBg from "./images/pattern-bg-mobile.png";
+import DesktopBg from "./images/pattern-bg-desktop.png";
+
+// Реэкспортируем их
+export { arrow, location, MobileBg, DesktopBg };

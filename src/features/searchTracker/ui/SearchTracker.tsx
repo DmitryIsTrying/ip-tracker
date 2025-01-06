@@ -1,5 +1,5 @@
-import { Arrow } from "@shared/assets";
-import { Input, InputTheme, Button } from "@shared/ui";
+import { arrow } from "@shared/assets";
+import { Input, InputTheme, Button, Icon } from "@shared/ui";
 import { ButtonTheme } from "@shared/ui/Button/Button";
 import cls from "./SearchTracker.module.scss";
 import { classNames } from "@shared/lib";
@@ -42,7 +42,7 @@ export const SearchTracker = ({ className }: SearchTrackerProps) => {
         className={cls.searchBtn}
         theme={ButtonTheme.FULLBLACK}
       >
-        <Arrow />
+        <Icon path={arrow} alt="icon arrow" />
       </Button>
     </div>
   );

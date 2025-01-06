@@ -27,7 +27,6 @@ function App() {
   const isInit = useAppSelector(selectInit);
   const error = useAppSelector(selectError);
   const { width: windowWidth } = useViewport();
-
   useEffect(() => {
     dispatch(fetchCurrentLocation());
   }, []);

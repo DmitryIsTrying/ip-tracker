@@ -5,6 +5,7 @@ import { createRoot } from "react-dom/client";
 import cls from "./Map.module.scss";
 import { useAppSelector } from "@app/model/store";
 import { selectCoords } from "@app/model/appSlice";
+import { location } from "@shared/assets";
 
 export const Map = () => {
   const mapRef = useRef<L.Map | null>(null);
@@ -27,8 +28,19 @@ export const Map = () => {
       // Рендерим JSX в контейнер
       createRoot(popupContent).render(<div className={cls.popup}>Your location</div>);
 
-      // Добавление маркера
-      L.marker([coords.lat, coords.lng]).addTo(mapRef.current).bindPopup(popupContent).openPopup();
+      // Создаем пользовательский иконку
+      const customIcon = new L.Icon({
+        iconUrl: location, // Путь к SVG
+        iconSize: [30, 30], // Размер иконки
+        iconAnchor: [20, 40], // Якорь иконки (точка, которая будет указывать на координаты)
+        popupAnchor: [-5, -40], // Смещение для попапа
+      });
+
+      // Добавляем маркер с пользовательским иконкой
+      L.marker([coords.lat, coords.lng], { icon: customIcon })
+        .addTo(mapRef.current)
+        .bindPopup("Your location")
+        .openPopup();
     }
 
     // Очистка при размонтировании компонента

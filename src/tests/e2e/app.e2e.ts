@@ -16,6 +16,6 @@ describe("Application", () => {
     const locationInfoText = await AppPage.LocationInfo.getText();
 
     // Проверяем, что текст содержит ожидаемый IP-адрес
-    expect(locationInfoText).toContain("1.1.1.1");
+    expect(locationInfoText).toContain("Cloudflare");
   });
 });

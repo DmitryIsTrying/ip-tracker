@@ -1,6 +1,7 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { MyApp } from "./MyApp";
 import userEvent from "@testing-library/user-event";
+import { expect } from "vitest";
 
 describe("test myApp", () => {
   test("renders myapp", () => {
