@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #c1c1c1;
+    --background-color: hsl(0, 0%, 17%);
+    --input-field: #42929f;
+    --font-family-main: "Rubik", serif;
+    --font-size-m: 12px;
+    --font-line-m: 16px;
+    --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+    --font-size-l: 18px;
+    --font-line-l: 34px;
+    --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+    font: var(--font-l)
+}
