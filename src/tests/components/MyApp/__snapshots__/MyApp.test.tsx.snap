@@ -1,0 +1,15 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders myapp 1`] = `
+<input
+  placeholder="input value and more"
+  type="text"
+/>
+`;
+
+exports[`test myApp > renders myapp 1`] = `
+<input
+  placeholder="input value and more"
+  type="text"
+/>
+`;

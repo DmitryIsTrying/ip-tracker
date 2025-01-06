@@ -1,0 +1,31 @@
+.Input {
+  color: black;
+  padding: 5px 10px;
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+  transition: 0.3s ease background-color, 0.3s ease color, 0.3s ease opacity;
+  border: none;
+  &::placeholder {
+    color: var(--secondary-color);
+    font: var(--font-l);
+    transition: 0.3s ease background-color, 0.3s ease color;
+  }
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.clear {
+  width: 100%;
+  border-radius: 10px 0 0 10px;
+  max-width: var(--input-width);
+}
+
+.errorMessage {
+  position: absolute;
+  height: fit-content;
+  line-height: 1;
+  color: red;
+  bottom: 0;
+  z-index: 1003;
+}

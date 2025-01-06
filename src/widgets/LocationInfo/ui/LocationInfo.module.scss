@@ -1,0 +1,32 @@
+.LocationInfo {
+  background-color: var(--background-color);
+  display: flex;
+  padding: 30px;
+  gap: 50px;
+  border-radius: 16px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: 0.3s ease background-color, 0.3s ease color;
+}
+
+.blockInfo {
+  color: var(--primary-color);
+  font: var(--font-l);
+  font-weight: var(--font-weight-700);
+  text-align: center;
+  transition: 0.3s ease background-color, 0.3s ease color;
+}
+
+.titleInfo {
+  color: var(--secondary-color);
+  font: var(--font-m);
+  font-weight: var(--font-weight-500);
+  transition: 0.3s ease background-color, 0.3s ease color;
+}
+
+@media screen and (max-width: 600px) {
+  .LocationInfo {
+    gap: 20px;
+  }
+}

@@ -1,0 +1,55 @@
+.Toastify {
+  position: absolute;
+  z-index: 1005;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 200px;
+  width: 100%;
+  margin: 10px;
+}
+
+.Toastify span {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font: var(--font-l);
+  font-weight: var(--font-weight-500);
+}
+
+.success div {
+  background: linear-gradient(90deg, rgb(0, 253, 80), rgb(79, 242, 115));
+}
+
+.error div {
+  background: linear-gradient(90deg, red, rgb(198, 136, 136));
+}
+
+.warning div {
+  background: linear-gradient(90deg, #ffeb3b, #fff176); /* Желтый градиент */
+}
+
+.successToastify {
+  background-color: #f0f9eb; /* Очень светлый зеленый */
+}
+.errorToastify {
+  background-color: #ffebee; /* Очень светлый красный */
+}
+
+.warningToastify {
+  background-color: #fff8e1; /* Очень светлый желтый */
+}
+
+.btn {
+  font: var(--font-m);
+  padding: 5px 8px;
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+}

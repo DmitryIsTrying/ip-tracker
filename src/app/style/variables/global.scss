@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --font-family-main: "Rubik", serif;
+  --font-size-m: 12px;
+  --font-line-m: 16px;
+  --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+  --font-size-l: 18px;
+  --font-line-l: 34px;
+  --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-700: 700;
+
+  // Размеры
+  --bg-paint: 400px;
+  --input-width: 500px;
+}

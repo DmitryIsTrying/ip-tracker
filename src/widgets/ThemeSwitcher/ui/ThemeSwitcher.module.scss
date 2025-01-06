@@ -1,0 +1,16 @@
+.ThemeSwitcher {
+  cursor: pointer;
+  position: absolute;
+  z-index: 1001;
+  top: 50px;
+  left: 50px;
+}
+
+@media screen and (max-width: 860px) {
+  .ThemeSwitcher {
+    top: unset;
+    left: unset;
+    bottom: 10px;
+    left: 10px;
+  }
+}

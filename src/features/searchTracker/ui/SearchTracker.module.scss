@@ -1,0 +1,22 @@
+.SearchTracker {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.searchField {
+  &:focus {
+    outline: none;
+    border: 3px solid var(--input-field);
+    border-right: none;
+  }
+}
+
+.searchBtn {
+  transition: 0.3s ease background-color, 0.3s ease color, 0.3s ease opacity;
+  &:hover {
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,64 @@
+@import "reset";
+@import "variables/global";
+@import "themes/yellow";
+@import "themes/dark";
+@import "themes/light";
+
+.app {
+  font: var(--font-l);
+  font-weight: var(--font-weight-500);
+  background: var(--background-color);
+  color: var(--primary-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s ease background-color, 0.3s ease color;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  align-items: center;
+  gap: 80px;
+  position: absolute;
+  z-index: 1000;
+  padding-top: 80px;
+}
+
+.bgImage {
+  width: 100%;
+  height: var(--bg-paint);
+}
+
+.title {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    gap: 30px;
+    padding-top: 10px;
+  }
+}
+
+.progressTop {
+  position: absolute;
+  top: 0;
+}
+
+.toastify {
+  bottom: 10px;
+  right: 10px;
+}
+
+@media screen and (max-width: 860px) {
+  .toastify {
+    bottom: unset;
+    right: unset;
+    top: 10px;
+    left: 10px;
+  }
+}
