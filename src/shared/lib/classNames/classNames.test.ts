@@ -1,3 +1,4 @@
+import { vi, beforeAll, afterAll, expect } from "vitest";
 import { classNames } from "./classNames";
 
 describe("test classNames function", () => {

@@ -1,3 +1,4 @@
+import { expect } from "vitest";
 import { delay } from "./delay";
 
 describe("delay", () => {

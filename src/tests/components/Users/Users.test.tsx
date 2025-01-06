@@ -1,6 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { Users } from "./Users";
 import axios from "axios";
+import { vi, expect } from "vitest";
 
 vi.mock("axios");
 

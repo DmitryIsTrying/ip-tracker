@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "types": ["mocha"],
+    "types": ["mocha", "node"],
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "target": "ES2020",
     "baseUrl": "src",

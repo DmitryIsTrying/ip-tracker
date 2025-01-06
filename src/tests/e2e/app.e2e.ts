@@ -10,6 +10,7 @@ describe("Application", () => {
     await AppPage.searchLocation("1.1.1.1");
 
     // Ждём 5 секунд для завершения запроса на сервер
+    //@ts-ignore
     await browser.pause(5000);
 
     // Получаем текст из элемента

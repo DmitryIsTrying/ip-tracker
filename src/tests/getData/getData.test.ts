@@ -1,5 +1,6 @@
 import axios from "axios";
 import { getData } from "./getData";
+import { vi, expect } from "vitest";
 
 vi.mock("axios");
 
