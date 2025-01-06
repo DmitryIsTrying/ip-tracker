@@ -11,7 +11,8 @@
     "test": "vitest",
     "test:e2e": "npx wdio run ./wdio.conf.ts",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_d62dbe48a7a3a02"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.0",
@@ -45,6 +46,7 @@
     "@wdio/mocha-framework": "^9.5.0",
     "@wdio/spec-reporter": "^9.5.0",
     "@wdio/types": "^9.5.0",
+    "chromatic": "^11.22.0",
     "chromedriver": "^131.0.4",
     "eslint": "^9.17.0",
     "eslint-plugin-react-hooks": "^5.0.0",
